@@ -1,0 +1,78 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Riti740/-DAVIS-LAB-WORK/blob/main/flatten%20nested%20list\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#remove empty sets\n",
+        "lst = [{1, 2}, set(), {3, 4}, set()]\n",
+        "\n",
+        "result = [s for s in lst if s]\n",
+        "\n",
+        "print(result)"
+      ],
+      "metadata": {
+        "id": "jZRaTocGQm5B"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "l1 = [1, 2, 3]\n",
+        "l2 = [2, 3, 4]\n",
+        "l3 = [2, 5, 3]\n",
+        "\n",
+        "result = list(set(l1) & set(l2) & set(l3))\n",
+        "\n",
+        "print(result)"
+      ],
+      "metadata": {
+        "id": "hCOo83T0RBt-"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "l1 = [1, 2, 3]\n",
+        "l2 = [2, 3, 4]\n",
+        "l3 = [2, 5, 3]\n",
+        "\n",
+        "result = list(set(l1) & set(l2) & set(l3))\n",
+        "\n",
+        "print(result)"
+      ],
+      "metadata": {
+        "id": "b4ZXz1c_RfSE"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "name": "Welcome to Colab",
+      "toc_visible": true,
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
