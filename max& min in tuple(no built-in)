@@ -129,6 +129,15 @@
       "outputs": []
     },
     {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "69FF58qSOwVW"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
       "cell_type": "markdown",
       "metadata": {
         "id": "Nma_JWh-W-IF"
@@ -142,6 +151,33 @@
         "  </a>\n",
         "</center>"
       ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "YijkIJQTO6f1"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "set1 = {1, 2, 3, 4}\n",
+        "set2 = {3, 4, 5, 6}\n",
+        "\n",
+        "intersection = set1 & set2\n",
+        "difference = set1 - set2\n",
+        "\n",
+        "print(\"Intersection:\", intersection)\n",
+        "print(\"Difference:\", difference)"
+      ],
+      "metadata": {
+        "id": "p9RkKxdkO6zW"
+      },
+      "execution_count": null,
+      "outputs": []
     },
     {
       "cell_type": "markdown",
