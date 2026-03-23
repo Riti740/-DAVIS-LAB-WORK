@@ -1,16 +1,6 @@
 {
   "cells": [
     {
-      "cell_type": "markdown",
-      "metadata": {
-        "id": "view-in-github",
-        "colab_type": "text"
-      },
-      "source": [
-        "<a href=\"https://colab.research.google.com/github/Riti740/-DAVIS-LAB-WORK/blob/main/common%20in%20three%20lists\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
-      ]
-    },
-    {
       "cell_type": "code",
       "source": [
         "#remove empty sets\n",
@@ -42,14 +32,30 @@
       },
       "execution_count": null,
       "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "l1 = [1, 2, 3]\n",
+        "l2 = [2, 3, 4]\n",
+        "l3 = [2, 5, 3]\n",
+        "\n",
+        "result = list(set(l1) & set(l2) & set(l3))\n",
+        "\n",
+        "print(result)"
+      ],
+      "metadata": {
+        "id": "b4ZXz1c_RfSE"
+      },
+      "execution_count": null,
+      "outputs": []
     }
   ],
   "metadata": {
     "colab": {
       "name": "Welcome to Colab",
       "toc_visible": true,
-      "provenance": [],
-      "include_colab_link": true
+      "provenance": []
     },
     "kernelspec": {
       "display_name": "Python 3",
